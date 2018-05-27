@@ -1,1 +1,3 @@
-$('.works_showcase').slick();
+$('.works_showcase').slick ({
+    dots: true
+});
