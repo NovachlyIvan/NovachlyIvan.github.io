@@ -36,7 +36,7 @@ body {
     height: 891px;
     width: 100%;
     background: url("../img/bigscreen.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .header_logo {
@@ -491,7 +491,7 @@ body {
     width: 100%;
     height: 749px;
     background: url("../img/map.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .contact_title {
@@ -570,10 +570,11 @@ body {
 }
 
 .contact_button_top {
-    display: flex;
-    justify-content: end;
+    /*display: flex;*/
+    /*justify-content: end;*/
     margin-top: -70px;
     margin-right: 95px;
+    float: right;
 }
 
 .contact_button_top button{
